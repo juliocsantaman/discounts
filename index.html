@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Discounts</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Discounts</h1>
+  </header>
+
+  <main class="main">
+    <section class="discount">
+      <form class="discount__form">
+        <input type="number" class="discount__input" placeholder="Original price" id="price">
+        <input type="number" class="discount__input" placeholder="Discount %" id="discount">
+        <button type="button" class="discount__btn" onclick="calculatePriceWithDiscount()">Calculate</button>
+        <p class="discount__result" id="result">
+          <strong>Result...</strong>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>

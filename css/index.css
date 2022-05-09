@@ -1,0 +1,56 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+:root {
+  --green1: #20daac;
+  --green2: #c8e981;
+  --black1: #12180d;
+  --gray1: #7b7a75;
+  --white1: #f3eae8;
+}
+
+.header {
+  background-color: var(--black1);
+  color: var(--white1);
+  padding: 2rem;
+  text-align: center;
+}
+
+.discount__form {
+  background-color: var(--white1);
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discount__input {
+  width: 60%;
+  margin-top: 2rem;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.discount__btn {
+  margin-top: 2.5rem;
+  border: none;
+  cursor: pointer;
+  background-color: var(--green1);
+  color: var(--white1);
+  padding: 0.5rem;
+  width: 50%;
+  border-radius: 0.2rem;
+  font-weight: bold;
+}
+
+.discount__btn:hover {
+  filter: brightness(90%);
+}
+
+.discount__result {
+  margin-top: 3rem;
+}
